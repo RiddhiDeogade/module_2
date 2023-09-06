@@ -1,0 +1,73 @@
+div{
+    margin: 33px 3px 0px 30px;
+    border: 2px solid rgb(31, 30, 30);
+    height: 156px;
+    width: 350px;
+    text-align: right;
+    display: inline-table;
+    background-color: rgb(241, 237, 237);
+    /* width: 39%; */
+
+}
+header{
+    font-size: 33px;
+    text-align: center;
+    margin: 30px;
+    padding: 0px;
+}
+
+.a>h{
+    background-color: rgb(226, 160, 171);
+    padding-left:5%;
+    padding-right: 5%;
+    margin: -2px;
+    border: 2px solid black;
+}
+
+
+.b>h{
+    
+    background-color:rgb(242, 101, 101);
+    padding-left:5%;
+    color: white;
+    padding-right: 5%;
+    margin: -2px;
+    border: 2px solid black;
+}
+
+
+.c>h{
+    background-color:rgb(213, 213, 122);
+    padding-left:5%;
+    padding-right: 5%;
+    margin: -2px;
+    border: 2px solid black;
+}
+p{
+    text-align:left;
+}
+
+*{
+    margin: 3vh 3vh 0vh 3vh;
+}
+
+
+@media only screen and (min-width:768px)and (max-width:991px) {
+.a .b{
+ width:350px;
+ margin-left:10px;
+ margin-right: 10px;
+}
+.c{
+    width: 90%;
+    margin: 2vh 2vh 0vh 2vh;
+}
+}
+
+@media only screen and (max-width:767px) {
+    div{
+    width: 90%;
+    margin: 1% 2% 0% 2%;
+}
+}
+
